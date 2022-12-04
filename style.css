@@ -1,0 +1,122 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.bgimage{
+	background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('bg.jpg');
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+
+.menu{
+
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+	width: 20%;
+	line-height: 100px;
+	float: left;
+}
+
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.
+.r{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+.r:hover{
+	color: yellow;
+}
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white;
+}
+
+.text h4{
+
+	font-size: 30px;
+	font-family: Impact;
+}
+.text h3{
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weigth: bolder;
+}
+.text h2{
+	font-size: 16px;
+	font-family: verdana;
+	font-weigth: bolder;
+}
+
+
+#buttonone{
+	background-color: transparent;
+	color: white;
+	font-size: 20px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 3px solid #ff4100;
+}
+#buttonone a
+{
+  text-decoration:none;
+  color: white;
+}
+
+#buttonone:hover{
+	color: white;
+}
+
+#about{
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+	display:flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content: center;
+	column-gap: 20px;
+}
+
+#about .am{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cons{
+	width: 99.5%;
+	height: 2em;
+	background-color: white;
+	border: 1px solid silver;
+	box-shadow: 10px 0px 5px 1px black;
+	padding: 2px 2px;
+}
+.footer{
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	margin-top: 5px;
+}
+
